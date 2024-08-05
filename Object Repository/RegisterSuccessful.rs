@@ -11,17 +11,26 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;username\&quot;: \&quot;raziefdiar\&quot;,\n  \&quot;email\&quot;: \&quot;michael.lawson@reqres.in\&quot;,\n  \&quot;password\&quot;: \&quot;pistol\&quot;\n}\n&quot;,
-  &quot;contentType&quot;: &quot;text/plain&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
+  &quot;contentType&quot;: &quot;application/x-www-form-urlencoded&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;,
+  &quot;parameters&quot;: [
+    {
+      &quot;name&quot;: &quot;email&quot;,
+      &quot;value&quot;: &quot;eve.holt@reqres.in&quot;
+    },
+    {
+      &quot;name&quot;: &quot;password&quot;,
+      &quot;value&quot;: &quot;pistol&quot;
+    }
+  ]
 }</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
+   <httpBodyType>x-www-form-urlencoded</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>text/plain</value>
+      <value>application/x-www-form-urlencoded</value>
       <webElementGuid>d919ac9c-6904-4cb2-ae1e-63307e573c78</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.6.8</katalonVersion>
